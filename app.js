@@ -18,3 +18,7 @@ function sum(n1 , n2){
   var total = (n1 + n2);
   console.log ('The sum of ' + n1 + ' and '+ n2 + ' is ' + total + '.' );
 }
+function multiply(n1 , n2){
+  var total2 = (n1 * n2);
+  console.log('The product of ' + n1 + ' and ' + n2 + 'is ' + total2 + '.');
+}
