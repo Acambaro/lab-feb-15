@@ -50,3 +50,11 @@ function sumArray (nArray){
 
 
 }
+function multiplyArray (nArray){
+  console.table(nArray);
+  var count = nArray[0];
+  for (i=1; i < nArray.length; i++){
+    count *= nArray[i];
+  }
+  console.log('The numbers ' + nArray.toString() + ' have a product of ' + count + '.')
+}
