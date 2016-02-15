@@ -3,7 +3,7 @@ var pTagOne = document.getElementById('ans-one');
 var pTagTwo = document.getElementById('ans- two');
 var pTagThree = document.getElementById('ans-three');
 var pTagFour = document.getElementById('ans-four');
-var pTagFive = document.getElementById('ans-five');
+var pTagOnefive = document.getElementById('ans-five');
 var pTagsix = document.getElementById('ans-six');
 
 // var ans1 = prompt('Did Sam live in South Dakota for 8 years?');
@@ -22,7 +22,7 @@ var pTagsix = document.getElementById('ans-six');
 function sum(n1 , n2){
   var total = (n1 + n2);
   // console.log ('The sum of ' + n1 + ' and '+ n2 + ' is ' + total + '.' );
-  pTagOne.textContent = 'The sum of ' + n1 + ' and '+ n2 + ' is ' + total + '.' ;
+  pTagOne .textContent = 'The sum of ' + n1 + ' and '+ n2 + ' is ' + total + '.' ;
   return total;
 }
 function multiply(n1 , n2){
@@ -40,7 +40,7 @@ function sumAndMultiply(n1,n2,n3){
   console.log(' The numbers ' + n1 + ' and ' + n2 + ' and ' + n3 + ' have a product of ' + multiplyTotal + '.');
 
   var answerArray = [sumTotal,multiplyTotal];
-  PtagTwo.textContent = n1 + ' and '+ n2 + ' and ' + n3 + ' sum to ' + sumTotal + '.';
+
   return answerArray;
 }
 
