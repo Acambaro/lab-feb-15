@@ -37,3 +37,16 @@ function sumAndMultiply(n1,n2,n3){
 
   return answerArray;
 }
+
+function sumArray (nArray){
+  console.table(nArray);
+
+  var count = 0;
+  for (i=0; i < nArray.length; i++){
+    count += nArray[i];
+
+  }
+  console.log(nArray.toString() + ' was passed in as an array of numbers, and ' + count + ' is their sum. ' );
+
+
+}
